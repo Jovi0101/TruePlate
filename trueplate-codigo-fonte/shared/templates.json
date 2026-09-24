@@ -1,0 +1,60 @@
+{
+  "plate": {
+    "radiusTop": 0.14,
+    "radiusBottom": 0.132,
+    "height": 0.015,
+    "color": "#F2EFE7",
+    "topY": 0.015
+  },
+  "roles": {
+    "proteina": {
+      "defaultLabel": "Proteína",
+      "shape": "box",
+      "color": "#A8653A",
+      "size": [0.09, 0.025, 0.065],
+      "centerY": 0.0275,
+      "hotspotY": 0.04
+    },
+    "carboidrato": {
+      "defaultLabel": "Carboidrato",
+      "shape": "dome",
+      "color": "#EDE0C0",
+      "radius": 0.05,
+      "centerY": 0.015,
+      "hotspotY": 0.06
+    },
+    "salada": {
+      "defaultLabel": "Salada / vegetais",
+      "shape": "torus",
+      "color": "#6E9B5E",
+      "radius": 0.05,
+      "tube": 0.016,
+      "centerY": 0.031,
+      "hotspotY": 0.045
+    },
+    "molho_guarnicao": {
+      "defaultLabel": "Molho / guarnição",
+      "shape": "dollop",
+      "color": "#C0562E",
+      "radius": 0.022,
+      "squashY": 0.6,
+      "centerY": 0.0282,
+      "hotspotY": 0.04
+    },
+    "extra": {
+      "defaultLabel": "Acompanhamento extra",
+      "shape": "dollop",
+      "color": "#D98A3D",
+      "radius": 0.035,
+      "squashY": 0.55,
+      "centerY": 0.0342,
+      "hotspotY": 0.05
+    }
+  },
+  "placementRadius": 0.078,
+  "templates": [
+    { "id": "t3", "label": "3 componentes", "parts": ["proteina", "carboidrato", "salada"] },
+    { "id": "t4", "label": "4 componentes", "parts": ["proteina", "carboidrato", "salada", "molho_guarnicao"] },
+    { "id": "t5", "label": "5 componentes", "parts": ["proteina", "carboidrato", "salada", "molho_guarnicao", "extra"] }
+  ]
+}
